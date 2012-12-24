@@ -1,0 +1,247 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADMINS	yunprobe/settings.py	/^ADMINS = ($/;"	v
+CacheDb	yun/cache_.py	/^class CacheDb:$/;"	c
+Comps	common/detect.py	/^        class Comps:$/;"	c	function:HttpDetect.do
+DATABASES	yunprobe/settings.py	/^DATABASES = {$/;"	v
+DEBUG	yunprobe/settings.py	/^DEBUG = True$/;"	v
+DectWork	client/application.py	/^from client.dectwork import DectWork$/;"	i
+DectWork	client/dectwork.py	/^class DectWork:$/;"	c
+DetectReport	transfer/report.py	/^class DetectReport:$/;"	c
+DetectTask	transfer/task.py	/^class DetectTask:$/;"	c
+DeviceStatus	etc/models.py	/^class DeviceStatus(models.Model):$/;"	c
+DeviceStatus	yun/models.py	/^class DeviceStatus(models.Model):$/;"	c
+Global	client/global_.py	/^class Global:$/;"	c
+Handler	yun/handler.py	/^class Handler:$/;"	c
+Handler	yun/views.py	/^from handler import Handler$/;"	i
+Hotel	etc/models.py	/^class Hotel(models.Model):$/;"	c
+Hotel	yun/models.py	/^class Hotel(models.Model):$/;"	c
+HttpDetect	common/detect.py	/^class HttpDetect:$/;"	c
+HttpResponse	yun/views.py	/^from django.http import HttpResponse$/;"	i
+INSTALLED_APPS	yunprobe/settings.py	/^INSTALLED_APPS = ($/;"	v
+LANGUAGE_CODE	yunprobe/settings.py	/^LANGUAGE_CODE = 'zh-CN'$/;"	v
+LOGGING	yunprobe/settings.py	/^LOGGING = {$/;"	v
+Logger	client/global_.py	/^from common.logger import Logger$/;"	i
+Logger	common/logger.py	/^class Logger:$/;"	c
+Logger	yun/global_.py	/^from common.logger import Logger$/;"	i
+LoginHandler	yun/handler.py	/^class LoginHandler:$/;"	c
+LoginReport	transfer/report.py	/^class LoginReport:$/;"	c
+MANAGERS	yunprobe/settings.py	/^MANAGERS = ADMINS$/;"	v
+MEDIA_ROOT	yunprobe/settings.py	/^MEDIA_ROOT = ''$/;"	v
+MEDIA_URL	yunprobe/settings.py	/^MEDIA_URL = ''$/;"	v
+MIDDLEWARE_CLASSES	yunprobe/settings.py	/^MIDDLEWARE_CLASSES = ($/;"	v
+Packet	transfer/packet.py	/^class Packet:$/;"	c
+ROOT_URLCONF	yunprobe/settings.py	/^ROOT_URLCONF = 'yunprobe.urls'$/;"	v
+Report	transfer/report.py	/^class Report:$/;"	c
+SITE_ID	yunprobe/settings.py	/^SITE_ID = 1$/;"	v
+STATICFILES_DIRS	yunprobe/settings.py	/^STATICFILES_DIRS = ($/;"	v
+STATICFILES_FINDERS	yunprobe/settings.py	/^STATICFILES_FINDERS = ($/;"	v
+STATIC_ROOT	yunprobe/settings.py	/^STATIC_ROOT = ''$/;"	v
+STATIC_URL	yunprobe/settings.py	/^STATIC_URL = '\/static\/'$/;"	v
+SimpleTest	yun/tests.py	/^class SimpleTest(TestCase):$/;"	c
+TEMPLATE_DEBUG	yunprobe/settings.py	/^TEMPLATE_DEBUG = DEBUG$/;"	v
+TEMPLATE_DIRS	yunprobe/settings.py	/^TEMPLATE_DIRS = ($/;"	v
+TEMPLATE_LOADERS	yunprobe/settings.py	/^TEMPLATE_LOADERS = ($/;"	v
+TIME_ZONE	yunprobe/settings.py	/^TIME_ZONE = 'Asia\/Chongqing'$/;"	v
+TestCase	yun/tests.py	/^from django.test import TestCase$/;"	i
+Tlv	transfer/packet.py	/^class Tlv:$/;"	c
+USE_I18N	yunprobe/settings.py	/^USE_I18N = True$/;"	v
+USE_L10N	yunprobe/settings.py	/^USE_L10N = True$/;"	v
+USE_TZ	yunprobe/settings.py	/^USE_TZ = True$/;"	v
+WSGI_APPLICATION	yunprobe/settings.py	/^WSGI_APPLICATION = 'yunprobe.wsgi.application'$/;"	v
+__init__	client/application.py	/^	def __init__(self):$/;"	m	class:application
+__init__	client/dectwork.py	/^	def __init__(self):$/;"	m	class:DectWork
+__init__	common/detect.py	/^    def __init__(self):$/;"	m	class:HttpDetect
+__init__	common/logger.py	/^    def __init__(self,logconf):$/;"	m	class:Logger
+__init__	transfer/report.py	/^	def __init__(self):$/;"	m	class:LoginReport
+__init__	transfer/report.py	/^	def __init__(self, info=None):$/;"	m	class:DetectReport
+__init__	transfer/task.py	/^	def __init__(self, id='', url='', ip=''):$/;"	m	class:DetectTask
+__init__	yun/handler.py	/^	def __init__(self):$/;"	m	class:LoginHandler
+__unicode__	etc/models.py	/^	def __unicode__(self):$/;"	m	class:DeviceStatus	file:
+__unicode__	etc/models.py	/^	def __unicode__(self):$/;"	m	class:Hotel	file:
+__unicode__	yun/models.py	/^	def __unicode__(self):$/;"	m	class:DeviceStatus	file:
+__unicode__	yun/models.py	/^	def __unicode__(self):$/;"	m	class:Hotel	file:
+a	common/logger.py	/^    a = Logger("testlogging.conf")$/;"	v
+addr	common/detect.py	/^                addr = socket.getaddrinfo(comps.hostname,comps.port)$/;"	v	class:HttpDetect.do.Comps
+address	etc/models.py	/^	address = models.CharField("地址", max_length=200)$/;"	v	class:Hotel
+address	yun/models.py	/^	address = models.CharField("地址", blank=True, max_length=200)$/;"	v	class:Hotel
+admin	yun/admin.py	/^from django.contrib import admin$/;"	i
+admin	yunprobe/urls.py	/^from django.contrib import admin$/;"	i
+app	client.py	/^from client.application import app$/;"	i
+app	client/application.py	/^app = application()$/;"	v
+appPath	client/global_.py	/^	appPath = ""$/;"	v	class:Global
+appVer	client/global_.py	/^	appVer = "1001"$/;"	v	class:Global
+appVersion	client/version.py	/^appVersion = "1.1.0"$/;"	v
+app_version	etc/models.py	/^	app_version = models.CharField("AppVersion", blank=True, max_length=256)	$/;"	v	class:DeviceStatus
+app_version	yun/models.py	/^	app_version = models.CharField("AppVersion", blank=True, max_length=256)	$/;"	v	class:DeviceStatus
+application	client/application.py	/^class application:$/;"	c
+application	yunprobe/wsgi.py	/^application = get_wsgi_application()$/;"	v
+begintime	common/detect.py	/^            begintime =  time.time()$/;"	v	class:HttpDetect.do.Comps
+config	common/logger.py	/^import logging.config$/;"	i
+conn	common/detect.py	/^                conn = httplib.HTTPConnection(tmp)$/;"	v	class:HttpDetect.do.Comps
+connectedtime	common/detect.py	/^            connectedtime = time.time()$/;"	v	class:HttpDetect.do.Comps
+connection	yun/cache_.py	/^from django.db import connection$/;"	i
+connection	yun/handler.py	/^from django.db import connection$/;"	i
+critical	common/logger.py	/^    def critical(self,msg):$/;"	m	class:Logger
+debug	common/logger.py	/^    def debug(self,msg):$/;"	m	class:Logger
+det_id_tag	transfer/packet.py	/^det_id_tag = 11$/;"	v
+det_ip_tag	transfer/packet.py	/^det_ip_tag = 13$/;"	v
+det_task_tag	transfer/packet.py	/^det_task_tag = 1$/;"	v
+det_url_tag	transfer/packet.py	/^det_url_tag = 12$/;"	v
+device	yun/cache_.py	/^	device = {}$/;"	v	class:CacheDb
+device_name	etc/models.py	/^	device_name = models.CharField("DeviceName", max_length=64)$/;"	v	class:DeviceStatus
+device_name	yun/models.py	/^	device_name = models.CharField("DeviceName", max_length=64)$/;"	v	class:DeviceStatus
+do	common/detect.py	/^    def do(self,url):$/;"	m	class:HttpDetect
+downloadedtime	common/detect.py	/^            downloadedtime = time.time()$/;"	v	class:HttpDetect.do.Comps
+entry	yun/views.py	/^def entry(request):$/;"	f
+error	common/logger.py	/^    def error(self,msg):$/;"	m	class:Logger
+execute_from_command_line	manage.py	/^    from django.core.management import execute_from_command_line$/;"	i
+finalize	client/application.py	/^	def finalize(self):$/;"	m	class:application
+gateway	etc/models.py	/^	gateway = models.CharField("GateWay", blank=True, max_length=32)	$/;"	v	class:DeviceStatus
+gateway	yun/models.py	/^	gateway = models.CharField("GateWay", blank=True, max_length=32)	$/;"	v	class:DeviceStatus
+getDeviceInfo	client/dectwork.py	/^	def getDeviceInfo(self, info):$/;"	m	class:DectWork
+getTaskList	yun/cache_.py	/^	def getTaskList(deviceName, taskList):$/;"	m	class:CacheDb
+get_wsgi_application	yunprobe/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	i
+getopt	client/application.py	/^import sys, os, time, getopt, traceback$/;"	i
+handle	yun/handler.py	/^	def handle(self):$/;"	m	class:LoginHandler
+handle	yun/handler.py	/^	def handle(self, deviceName, reportDataList):$/;"	m	class:Handler
+handleLogin	yun/handler.py	/^	def handleLogin(self, deviceName, lgnRpt):$/;"	m	class:Handler
+handleResponse	client/dectwork.py	/^	def handleResponse(self, retdata):$/;"	m	class:DectWork
+handlers	common/logger.py	/^import logging.handlers$/;"	i
+hotel_name	etc/models.py	/^	hotel_name = models.CharField("饭店名称", max_length=150, unique=True)$/;"	v	class:Hotel
+hotel_name	yun/models.py	/^	hotel_name = models.CharField("饭店名称", max_length=150, blank=True,unique=True)$/;"	v	class:Hotel
+httplib	client/dectwork.py	/^import httplib, urllib$/;"	i
+httplib	common/detect.py	/^import socket,httplib,time,sys$/;"	i
+httplib	transfer/report.py	/^import httplib, urllib$/;"	i
+include	yunprobe/urls.py	/^from django.conf.urls import patterns, include, url$/;"	i
+info	common/logger.py	/^    def info(self,msg):$/;"	m	class:Logger
+initialize	client/application.py	/^	def initialize(self):$/;"	m	class:application
+insertDbDeviceStatus	yun/handler.py	/^	def insertDbDeviceStatus(self, deviceName, lgnRpt):$/;"	m	class:LoginHandler
+insertDbHotel	yun/handler.py	/^	def insertDbHotel(self, deviceName, lgnRpt):$/;"	m	class:LoginHandler
+ip	etc/models.py	/^	ip = models.CharField("IP", blank=True, max_length=32)	$/;"	v	class:DeviceStatus
+ip	yun/models.py	/^	ip = models.CharField("IP", blank=True, max_length=32)	$/;"	v	class:DeviceStatus
+keepAlive	client/dectwork.py	/^	def keepAlive(self):$/;"	m	class:DectWork
+keepAliveInterval	client/global_.py	/^	keepAliveInterval = 60$/;"	v	class:Global
+latitude	etc/models.py	/^	latitude = models.CharField("纬度", max_length=30, blank=True)$/;"	v	class:Hotel
+latitude	yun/models.py	/^	latitude = models.CharField("纬度", max_length=30, blank=True)$/;"	v	class:Hotel
+ldns	etc/models.py	/^	ldns = models.CharField("LDNS", blank=True, max_length=256)	$/;"	v	class:DeviceStatus
+ldns	yun/models.py	/^	ldns = models.CharField("LDNS", blank=True, max_length=256)	$/;"	v	class:DeviceStatus
+lensize	transfer/packet.py	/^	lensize = 4$/;"	v	class:Packet
+lensize	transfer/packet.py	/^	lensize = 4$/;"	v	class:Tlv
+log	common/logger.py	/^    def log(self,level,msg):$/;"	m	class:Logger
+logger	client/global_.py	/^logger = Logger("etc\/clientlogging.conf")$/;"	v
+logger	yun/cache_.py	/^from global_ import logger$/;"	i
+logger	yun/global_.py	/^logger = Logger(sys.path[0] + "\/etc\/serverlogging.conf")$/;"	v
+logger	yun/views.py	/^from global_ import logger $/;"	i
+logging	common/logger.py	/^import logging$/;"	i
+logging	common/logger.py	/^import logging.config$/;"	i
+logging	common/logger.py	/^import logging.handlers$/;"	i
+login	client/dectwork.py	/^	def login(self):$/;"	m	class:DectWork
+longitude	etc/models.py	/^	longitude = models.CharField("经度", max_length=30, blank=True)$/;"	v	class:Hotel
+longitude	yun/models.py	/^	longitude = models.CharField("经度", max_length=30, blank=True)$/;"	v	class:Hotel
+mac_address	etc/models.py	/^	mac_address = models.CharField("MAC", blank=True, max_length=32)$/;"	v	class:DeviceStatus
+mac_address	yun/models.py	/^	mac_address = models.CharField("MAC", blank=True, max_length=32)$/;"	v	class:DeviceStatus
+mask	etc/models.py	/^	mask = models.CharField("Mask", blank=True, max_length=32)	$/;"	v	class:DeviceStatus
+mask	yun/models.py	/^	mask = models.CharField("Mask", blank=True, max_length=32)	$/;"	v	class:DeviceStatus
+models	etc/models.py	/^from django.db import models$/;"	i
+models	yun/admin.py	/^import models$/;"	i
+models	yun/cache_.py	/^import models$/;"	i
+models	yun/handler.py	/^import models$/;"	i
+models	yun/models.py	/^from django.db import models$/;"	i
+models	yun/views.py	/^import models$/;"	i
+modify_time	etc/models.py	/^	modify_time = models.DateTimeField(auto_now=True)$/;"	v	class:Hotel
+modify_time	yun/models.py	/^	modify_time = models.DateTimeField(auto_now=True)$/;"	v	class:Hotel
+modify_user	etc/models.py	/^	modify_user = models.CharField("最后更新", max_length=100, blank=True, default="system")$/;"	v	class:Hotel
+modify_user	yun/models.py	/^	modify_user = models.CharField("最后更新", max_length=100, default="system")$/;"	v	class:Hotel
+name	yun/models.py	/^	name = models.CharField("设备名称", max_length=100, unique=True)$/;"	v	class:Hotel
+os	client/application.py	/^import sys, os, time, getopt, traceback$/;"	i
+os	client/dectwork.py	/^import time, os, sys, socket, traceback$/;"	i
+os	manage.py	/^import os$/;"	i
+os	yunprobe/wsgi.py	/^import os$/;"	i
+os_version	etc/models.py	/^	os_version = models.CharField("OSVersion", blank=True, max_length=256)	$/;"	v	class:DeviceStatus
+os_version	yun/models.py	/^	os_version = models.CharField("OSVersion", blank=True, max_length=256)	$/;"	v	class:DeviceStatus
+pack	transfer/packet.py	/^	def pack(self, tag, value):$/;"	m	class:Tlv
+pack	transfer/report.py	/^	def pack(self):$/;"	m	class:DetectReport
+pack	transfer/task.py	/^	def pack(self):$/;"	m	class:DetectTask
+packHeader	transfer/packet.py	/^	def packHeader(self, value):$/;"	m	class:Packet
+packWithHeader	transfer/report.py	/^	def packWithHeader(self, info):$/;"	m	class:LoginReport
+parseArguments	client/application.py	/^	def parseArguments(self, argv):$/;"	m	class:application
+parseendtime	common/detect.py	/^            parseendtime = time.time()$/;"	v	class:HttpDetect.do.Comps
+patterns	yunprobe/urls.py	/^from django.conf.urls import patterns, include, url$/;"	i
+phone	etc/models.py	/^	phone = models.CharField("联系方式", max_length=50, blank=True)$/;"	v	class:Hotel
+phone	yun/models.py	/^	phone = models.CharField("联系方式", max_length=50, blank=True)$/;"	v	class:Hotel
+process	client/dectwork.py	/^	def process(self):$/;"	m	class:DectWork
+protocolType	transfer/packet.py	/^protocolType = 'web1'$/;"	v
+protocolVersion	transfer/packet.py	/^protocolVersion = '0001'$/;"	v
+report	client/dectwork.py	/^	def report(self, server, data):$/;"	m	class:DectWork
+report	transfer/report.py	/^	def report(self, server, data):$/;"	m	class:Report
+response	common/detect.py	/^                response = conn.getresponse()$/;"	v	class:HttpDetect.do.Comps
+resptime	common/detect.py	/^            resptime = time.time()$/;"	v	class:HttpDetect.do.Comps
+rpt_appver_tag	transfer/packet.py	/^rpt_appver_tag = 18$/;"	v
+rpt_detect_tag	transfer/packet.py	/^rpt_detect_tag = 3$/;"	v
+rpt_detecthttpcode	transfer/packet.py	/^rpt_detecthttpcode = 26$/;"	v
+rpt_detectid_tag	transfer/packet.py	/^rpt_detectid_tag = 30$/;"	v
+rpt_detectip_tag	transfer/packet.py	/^rpt_detectip_tag = 20$/;"	v
+rpt_detectlobject_tag	transfer/packet.py	/^rpt_detectlobject_tag = 25$/;"	v
+rpt_detectretcode	transfer/packet.py	/^rpt_detectretcode = 27$/;"	v
+rpt_detecttconnected_tag	transfer/packet.py	/^rpt_detecttconnected_tag = 22$/;"	v
+rpt_detecttdnslookup_tag	transfer/packet.py	/^rpt_detecttdnslookup_tag = 21$/;"	v
+rpt_detecttdownload_tag	transfer/packet.py	/^rpt_detecttdownload_tag = 24$/;"	v
+rpt_detecttfirstbyte_tag	transfer/packet.py	/^rpt_detecttfirstbyte_tag = 23$/;"	v
+rpt_detecttime_tag	transfer/packet.py	/^rpt_detecttime_tag = 19$/;"	v
+rpt_devicegateway_tag	transfer/packet.py	/^rpt_devicegateway_tag = 15$/;"	v
+rpt_deviceip_tag	transfer/packet.py	/^rpt_deviceip_tag = 13$/;"	v
+rpt_deviceldns_tag	transfer/packet.py	/^rpt_deviceldns_tag = 16$/;"	v
+rpt_devicemac_tag	transfer/packet.py	/^rpt_devicemac_tag = 12$/;"	v
+rpt_devicemask_tag	transfer/packet.py	/^rpt_devicemask_tag = 14$/;"	v
+rpt_devicename_tag	transfer/packet.py	/^rpt_devicename_tag = 11$/;"	v
+rpt_deviceosver_tag	transfer/packet.py	/^rpt_deviceosver_tag = 17$/;"	v
+rpt_live_tag	transfer/packet.py	/^rpt_live_tag = 2$/;"	v
+rpt_login_tag	transfer/packet.py	/^rpt_login_tag = 1$/;"	v
+run	client/application.py	/^	def run(self):$/;"	m	class:application
+serverAddress	client/global_.py	/^	serverAddress = ""$/;"	v	class:Global
+socket	client/dectwork.py	/^import time, os, sys, socket, traceback$/;"	i
+socket	common/detect.py	/^import socket,httplib,time,sys$/;"	i
+socket	transfer/packet.py	/^import socket$/;"	i
+syncAllFromDb	yun/cache_.py	/^	def syncAllFromDb():$/;"	m	class:CacheDb
+sys	client.py	/^import sys$/;"	i
+sys	client/application.py	/^import sys, os, time, getopt, traceback$/;"	i
+sys	client/dectwork.py	/^import time, os, sys, socket, traceback$/;"	i
+sys	common/detect.py	/^import socket,httplib,time,sys$/;"	i
+sys	manage.py	/^import sys$/;"	i
+sys	yun/global_.py	/^import sys$/;"	i
+tagsize	transfer/packet.py	/^	tagsize = 4$/;"	v	class:Tlv
+test_basic_addition	yun/tests.py	/^    def test_basic_addition(self):$/;"	m	class:SimpleTest
+time	client/application.py	/^import sys, os, time, getopt, traceback$/;"	i
+time	client/dectwork.py	/^import time, os, sys, socket, traceback$/;"	i
+time	common/detect.py	/^import socket,httplib,time,sys$/;"	i
+time	yun/cache_.py	/^import time, traceback$/;"	i
+tmp	common/detect.py	/^                    tmp = self._urlip$/;"	v	class:HttpDetect.do.Comps
+tmp	common/detect.py	/^                    tmp = self._urlip+':%d' % comps.port$/;"	v	class:HttpDetect.do.Comps
+traceback	client/application.py	/^import sys, os, time, getopt, traceback$/;"	i
+traceback	client/dectwork.py	/^import time, os, sys, socket, traceback$/;"	i
+traceback	yun/cache_.py	/^import time, traceback$/;"	i
+traceback	yun/views.py	/^import traceback$/;"	i
+unpack	transfer/packet.py	/^	def unpack(self, tlv):$/;"	m	class:Tlv
+unpack	transfer/report.py	/^	def unpack(self, datalen, data):$/;"	m	class:DetectReport
+unpack	transfer/report.py	/^	def unpack(self, datalen, data):$/;"	m	class:LoginReport
+unpack	transfer/task.py	/^	def unpack(self, datalen, data):$/;"	m	class:DetectTask
+unpackBody	transfer/packet.py	/^	def unpackBody(self, vlen, val):$/;"	m	class:Packet
+unpackHeader	transfer/packet.py	/^	def unpackHeader(self, data, header):$/;"	m	class:Packet
+update_time	etc/models.py	/^	update_time = models.DateTimeField(auto_now=True)	$/;"	v	class:DeviceStatus
+update_time	yun/models.py	/^	update_time = models.DateTimeField(auto_now=True)	$/;"	v	class:DeviceStatus
+url	yunprobe/urls.py	/^from django.conf.urls import patterns, include, url$/;"	i
+urllib	client/dectwork.py	/^import httplib, urllib$/;"	i
+urllib	transfer/report.py	/^import httplib, urllib$/;"	i
+urlparse	client/dectwork.py	/^from urlparse import urlparse$/;"	i
+urlparse	common/detect.py	/^from urlparse import urlparse$/;"	i
+urlparse	transfer/report.py	/^from urlparse import urlparse$/;"	i
+urlpatterns	yunprobe/urls.py	/^urlpatterns = patterns('',$/;"	v
+usage	client/application.py	/^	def usage(self):$/;"	m	class:application
+warn	common/logger.py	/^    def warn(self,msg):$/;"	m	class:Logger
+work	client/dectwork.py	/^	def work(self):$/;"	m	class:DectWork
+workMode	client/global_.py	/^workMode = {'dect':0,'wget':1}$/;"	v

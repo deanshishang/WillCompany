@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+	<title>Mana</title>
+	<link rel="stylesheet" href="/mystatic/css/erya.css" type="text/css" media="screen" charset="utf-8">
+	<script type="text/javascript" src="/mystatic/js/jquery.js" charset="utf-8"></script>
+</head>
+<body screen_capture_injected="true">
+		<div id="wrapper">
+			<div id="hd_info">
+				<div id="cnts">
+					<div id="site_nav_top">尔雅物云</div>	
+				</div>
+			</div>
+			<div id="header">
+				<div class="er">点餐信息管理</div>
+			</div>
+			<div id="main">
+				<div id="post_list">
+					middle
+				</div>
+				<div id="side_nav">
+					<ul>
+					{% for rec in recipe  %}
+					<li>{{rec}}</li>
+					{% endfor %}
+					</ul>
+				</div>
+				<div id="side_right">
+					right
+				</div>
+				<div id="call_list">
+					call
+				</div>
+			</div>
+			<div id="footer">
+				footer
+			</div>
+		</div>
+</body>
+</html>

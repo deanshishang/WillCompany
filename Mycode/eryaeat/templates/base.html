@@ -1,0 +1,48 @@
+#-*- coding:utf-8 -*-
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xht
+ml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<meta name="description" content="a depot implement with django">
+		<meta name="author" content="shishang">
+		<title>标题</title>
+		<link rel="stylesheet" href="/mystatic/css/bootstrap.min.css" type="text/css" media="screen" charset="utf-8">
+		<script type="text/javascript" src="/mystatic/js/jquery.js" charset="utf-8"></script>
+		{% block js %}
+			<!-- 插入具体引用的js库或者js代码-->
+		{% endblock%}
+	</head>
+	<body>
+		<div class="topbar">
+				<div class="fill">
+					<div class="container">
+						<a class="brand" href="#">菜谱后台管理</a>	
+						<ul class="nav">
+							<li class="active"><a href="#">首页</a></li>
+							<li><a href="#contact">使用说明</a></li>
+							<li><a href="#about">关于我们</a></li>
+						</ul>
+						<form action="" class="pull-right" accept-charset="utf-8">
+							<input name='username' lass="input-small" type="text" placeholder="用户名" >
+							<input name='password' class="input-small" type="password" placeholder="密码" >
+							<button class='btn' type="submit">登录</button>
+						</form>
+					</div>
+				</div>
+		</div>
+
+		<link rel="stylesheet" href="/mystatic/css/my.css" type="text/css" media="screen" charset="utf-8" />
+		<div id="ID1">
+			<h1 id="ID2">Margin ID2 and ID1 collapse vertically.<br/>元素一二垂直方向折叠</h1>				
+		</div>
+	</body>
+	<script>
+		$(docuent).ready(function(){
+			//base界面的on_ready代码
+			{% block on_ready %}
+				//具体界面的on_ready代码
+			{% endblock%}
+		});
+	</script>
+</html>
