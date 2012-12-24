@@ -1,0 +1,37 @@
+<!--<html>
+<head>
+<script type="text/javascript" src="/static/js/jquery.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		  $("a.dean").click(function(){
+			    $(this).hide();
+				alert("FUCK")
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<button type="button">Click me</button>
+	<div><a class="dean" href="#">傻逼</a></div>
+</body>
+
+</html>-->
+
+{% extends "base.html" %}
+
+{%block js%}
+	<script type="text/javascript">
+	$(document).ready(function(){
+		  $("a.dean").click(function(){
+				alert("FUCK")
+			});
+		});
+	</script>
+{% endblock %}
+{% block content %}
+	<div><a class="dean" href="#">傻逼</a></div>
+{% endblock%}
+
+
+

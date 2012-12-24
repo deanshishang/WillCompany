@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %} dean test_1 {% endblock %}
+
+{% block heading %}<h1>  dean heading </h1>  {% endblock %}
+{% block content %}
+<br>
+{% for b in book %}
+<br>
+
+{{b.title}}----{{b.price}}
+
+{% endfor %}
+<br>
+---------------------------------------------------------------------
+{% endblock %}
